@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score Calculator</title>
+    <link rel="icon" type="image/x-icon" href="image/cbseJeeMains.png">
+    <link rel="stylesheet" href="css/formstyles.css">
+
+</head>
+
+<body>
+    <h1>Love Score Calculator</h1>
+    <p>Please fill out this form to generate your love score</p>
+    <form action="/" method="post">
+
+        <fieldset>
+            <label>Your Name : <input type="text" name="userName" placeholder="Your Name" required
+                    autocomplete="off" /></label>
+            <label>Crush Name :<input type="text" name="crushName" placeholder="Crush Name" required
+                    autocomplete="off" /></label>
+            <label>First time where you meet : <input type="text" name="firstMeet"
+                    placeholder="First time where you meet ?" required autocomplete="off" /></label>
+            <label>What things you like in him / her : <input type="text" name="thingsLike"
+                    placeholder="What things you like in him / her ?" required autocomplete="off" /></label>
+
+        </fieldset>
+        <fieldset>
+            <h3 style="text-align: center;">Are you a boy or a girl ? </h3>
+            <label><input type="radio" name="gender" class="inline" value="Boy" required />Boy</label>
+            <label><input type="radio" name="gender" class="inline" value="Girl" required />Girl</label>
+        </fieldset>
+        <input type="submit" value="Generate Score" onclick="playSound()" />
+    </form>
+    <footer style="padding: 3%;">
+        <p>&copy; <span id="yr"></span> || All Rights Reserved || Gaurav Singh</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

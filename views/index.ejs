@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Score Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Montserrat&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Love Score Calculator</h1>
+    <div id="container">
+        <div class="pic boy">
+            <img src="image/boy1.jpg" class="boy" id="boyimg" alt="Boy Pic">
+            <div id="textbox1" class="text">
+                <h2>
+                    <%= USERNAME%>
+                </h2>
+            </div>
+        </div>
+        <div>
+            <img src="image/heartimg.png" id="heart" alt="heart image">
+        </div>
+        <div class="pic girl">
+            <img src="image/girl1.jpg" class="girl" id="girlimg" alt="Girl Pic">
+            <div id="textbox2" class="text">
+                <h2>
+                    <%= CRUSHNAME%>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div id="line"></div>
+    <div id="result">
+        <h4>
+            <%= USERNAME%> and <%= CRUSHNAME%> your love score is <%= RANDOMVALUE%>.
+        </h4>
+    </div>
+
+
+    <a href="https://powerful-savannah-43320.herokuapp.com/"><button>Generate Another Score</button></a>
+    <p id="gendercheck">
+        <%= USERGENDER%>
+    </p>
+
+    <script src="script/image.js"></script>
+
+</body>
+
+</html>
