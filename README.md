@@ -12,5 +12,5 @@
 <li>Embedded JavaScript (EJS).</li>
 </ul>
 
-<strong>Project Link</strong> - https://lovescore-calculator.onrender.com/
+<strong>Project Link</strong> - https://love-score-calculator-production.up.railway.app/
 <p>Go and check it out by generating your own Love Score and show some love ❤.</p>
