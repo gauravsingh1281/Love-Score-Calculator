@@ -12,5 +12,5 @@
 <li>Embedded JavaScript (EJS).</li>
 </ul>
 
-<strong>Project Link</strong> - https://powerful-savannah-43320.herokuapp.com/
+<strong>Project Link</strong> - https://lovescore-calculator.onrender.com/
 <p>Go and check it out by generating your own Love Score and show some love ❤.</p>
