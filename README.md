@@ -1,5 +1,5 @@
 <h1>Love Score Calculator</h1>
-<p>This is the fun project called - Love Score Calculator App in which you can Calculate your love score between You and your Crush.</p>
+<p>This is a fun project called - Love Score Calculator in which you can calculate your love score between You and your Crush.</p>
 
 <h3>Technology i have used --</h3>
 
